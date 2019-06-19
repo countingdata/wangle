@@ -249,7 +249,7 @@ if(BUILD_TESTS)
   # this test requires arguments?
   #  add_gtest(ssl/test/SSLCacheTest.cpp SSLCacheTest)
   add_gtest(ssl/test/SSLContextManagerTest.cpp SSLContextManagerTest)
-  add_gtest(ssl/test/TLSCredProcessorTest.cpp TLSCredProcessorTest)
+  #add_gtest(ssl/test/TLSCredProcessorTest.cpp TLSCredProcessorTest)
   add_gtest(util/test/FilePollerTest.cpp FilePollerTest)
 endif()
 
